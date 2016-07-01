@@ -12,8 +12,6 @@ $ docker build -t eduardoleal/nginx .
   ```
   web:
       image: eduardoleal/nginx
-      external_links:
-          - proxy
       links:
           - php:php
       container_name: "nginx"
