@@ -1,6 +1,6 @@
 # NGINX & PHP Docker images
 
-#### Para dar build nas imagens:
+#### Exemplo de build para as imagens:
 
 ```
 $ cd Nginx
