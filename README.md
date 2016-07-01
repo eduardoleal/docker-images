@@ -1,8 +1,14 @@
-# docker-images
-Imagens customizadas para o Docker
+# NGINX & PHP Docker images
+
+#### Para dar build nas imagens:
+
+```
+$ cd Nginx
+$ docker build -t eduardoleal/nginx .
+```
 
 
-## Exemplo de uso com docker-compose
+#### Exemplo de uso com docker-compose
   ```
   web:
       image: eduardoleal/nginx
